@@ -7,6 +7,8 @@
 - **原版作者**：xihan（`cn.xihan.sign`）；当前维护：xiangfa
 - 基于 **libxposed API 102**；默认作用域：微信、QQ（可在 LSPosed 中勾选任意应用）
 
+> **注意**：从 0.1.1 起安装包名为 `io.github.xiangfa_test.signhelper`，与旧的 `com.xiang.signhelper` 是两个应用；升级请先卸载旧版，再在 LSPosed 里重新启用并勾选作用域。
+
 ## 使用
 
 1. 在 LSPosed 中启用本模块，并勾选需要被 hook 的应用
